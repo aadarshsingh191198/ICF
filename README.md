@@ -1,13 +1,21 @@
 # ICF
+1. Clone this repository 
 
-1. Install required frameworks 
+     ``` git clone https://github.com/aadarshsingh191198/ICF.git ```
+     
+2. Install required frameworks 
 
      ``` npm install ```
 
-2. Download the pre-trained word vectors from the link [here](http://nlp.stanford.edu/data/glove.6B.zip)
+3. Download the pre-trained word vectors from the link [here](http://nlp.stanford.edu/data/glove.6B.zip)
 
-3. Extract the downloaded file to a new folder `Embeddings` which itself should be placed inside the parent repository.
+4. Extract the downloaded file to a new folder `Embeddings` which itself should be placed inside the parent folder.
 
-4. Run the following command to initialize the model
+5. Copy all the content from [this](https://github.com/dhanushsr/Inappropriate-Content-Filter) repository and paste them into the parent folder.
+
+6. Run the following command to initialize the model
 
      ``` python create_embedding_data.py ```
+7. To test the appropriateness of a comment run the following command
+
+     ``` python evaluate.py "<Some comment>" ```
