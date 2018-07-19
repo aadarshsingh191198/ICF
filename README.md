@@ -11,7 +11,9 @@
 
 4. Extract the downloaded file to a new folder `Embeddings` which itself should be placed inside the parent folder.
 
-5. Copy all the content from [this](https://github.com/dhanushsr/Inappropriate-Content-Filter) repository and paste them into the parent folder.
+5. Clone [this](https://github.com/dhanushsr/Inappropriate-Content-Filter) repository inside parent folder.
+
+     ``` git clone https://github.com/dhanushsr/Inappropriate-Content-Filter.git . ```
 
 6. Run the following command to initialize the model
 
